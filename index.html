@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.statically.io/gh/AkshayKanna/akshaykanna.github.io/master/assets/css/github-calendar-responsive.css">
+    <!-- <link rel="stylesheet" href="https://cdn.statically.io/gh/AkshayKanna/akshaykanna.github.io/master/assets/css/github-calendar-responsive.css"> -->
     <script src="https://unpkg.com/github-calendar@1.3.1/dist/github-calendar.min.js"></script>
 </head>
 <style type="text/css">
@@ -124,14 +124,7 @@
     </div>
     <!-- End: 1 Row 4 Columns -->
     <div class="mt-5 mb-5"></div>
-                        <center>
-                            <div class="shadow-none  bg-light rounded" style="max-width: 700px;">
-                                <div class="calendar">
-                                    <!-- Loading stuff -->
-                                    Loading the data just for you.
-                                </div>
-                            </div>
-                        </center>
+                        
     <div class="mt-5 mb-5"></div>
     <hr>
     <div class="mt-5 mb-5"></div>
@@ -239,11 +232,24 @@
         </div>
     </div>
 </div>
+<div class="mt-5 mb-2"></div>
+<hr>
+<div class="mt-5 mb-2"></div>
+<center>
+    <div class="mb-5 text-center">
+        <h2 class="text-center text-muted"><strong>Github Profile</strong></h2>
+    </div>
+    <div class="shadow-none  bg-light rounded col-lg-9 col-md-12 col-sm-12" style="margin-bottom: 100px">
+        <div class="calendar">
+            Here is Git Status!!
+        </div>
+    </div>
+</center>
     <!-- End: 1 Row 3 Columns -->
     <script type="text/javascript">
-    	 GitHubCalendar(".calendar", "ravigornal");
         // or enable responsive functionality
-        GitHubCalendar(".calendar", "ravigornal", {
+        GitHubCalendar(".calendar", "ravigornal", 
+        {
             responsive: true
         });
     </script>
